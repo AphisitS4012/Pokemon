@@ -13,7 +13,7 @@ function App() {
       element: <HomePege />
     },
     {
-      path: "/detai",
+      path: "/detail/:name",
       element: <DetailPege />
     },
   ]);
