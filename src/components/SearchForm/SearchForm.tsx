@@ -22,7 +22,7 @@ const SearchForm = () => {
 
                     {typesList.map((item, index) => {
                         <label htmlFor="type" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Type</label>
-                        return <option className=' capitalize' key={`type-key-${index}`} value={index}>{item}</option>
+                        return <option className=' capitalize' key={`type-key-${index}`} value={item}>{item}</option>
                     })}
                 </select>
             </div>

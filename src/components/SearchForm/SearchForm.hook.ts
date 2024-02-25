@@ -42,7 +42,7 @@ const useSearchForm = () => {
             }
             setFetchPokemonList({ data: pokeList, loading: false, error: null })
             const data = filterPokemon(pokeList, keyword, type, sort)
-            setPokemonList({ data: data, loading: false, error: null })
+            setPokemonList({ data: pokeList, loading: false, error: null })
         } else {
             setFetchPokemonList({
                 data: [],
